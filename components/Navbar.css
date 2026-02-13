@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  background-color: #6ab176;
+}
+
+    .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding: var(--page-padding);
+    box-sizing: border-box;
+    }
+
+    .navbar-home {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .navbar-menu {
+        display: flex;
+        list-style: none;
+        gap: var(--page-padding);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-menu li {
+        margin: 0;
+    }
+    
+
