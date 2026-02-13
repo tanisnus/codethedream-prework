@@ -1,7 +1,10 @@
-
 #root {
-  max-width: var(--page-max-width);
   min-height: var(--page-min-height);
+  box-sizing: border-box;
+}
+
+.page-content {
+  max-width: var(--page-max-width);
   margin: 0 auto;
   padding: var(--page-padding);
   box-sizing: border-box;
