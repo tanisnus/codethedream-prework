@@ -1,0 +1,74 @@
+.top-score-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.top-score-card {
+    background: #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.top-score-card-image {
+    width: 100%;
+    aspect-ratio: 1;
+    background: #b8e0d8;
+}
+
+.top-score-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-score-card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: #b8e0d8;
+}
+
+.top-score-card-info {
+    padding: 1rem 1.25rem;
+}
+
+.top-score-card-info p {
+    margin: 0.5rem 0;
+    color: #c00;
+    font-size: 1rem;
+}
+
+.top-score-card-info p:first-child {
+    margin-top: 0;
+}
+
+.top-score-button {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #555;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.top-score-button:hover:not(:disabled) {
+    background: #444;
+}
+
+.top-score-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.top-score-error {
+    margin-top: 1rem;
+    color: #c00;
+    font-size: 0.9rem;
+    text-align: center;
+}
