@@ -51,6 +51,8 @@ function TopScore() {
 
     return (
         <section className="top-score-page">
+
+            {/* Top Score Card */}
             <div className="top-score-card">
                 <div className="top-score-card-image">
                     {scorer?.photo ? (
@@ -65,6 +67,8 @@ function TopScore() {
                     <p>Goals: {scorer != null ? scorer.goals : '??'}</p>
                 </div>
             </div>
+
+            {/* Top Score Button */}
             <button
                 type="button"
                 className="top-score-button"
@@ -73,7 +77,10 @@ function TopScore() {
             >
                 {loading ? 'Loading…' : 'Get a random top scorer'}
             </button>
+
             {error && <p className="top-score-error">{error}</p>}
+
+            
         </section>
     );
 }
