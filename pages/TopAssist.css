@@ -1,0 +1,80 @@
+.top-assist-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+    .top-assist-card {
+        background: #e8e8e8;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 320px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+
+        .top-assist-card-image{
+            width: 100%;
+            aspect-ratio: 1;
+            background: #b8e0d8;
+        }
+        
+
+            .top-assist-card-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .top-assist-card-image-placeholder {
+                width: 100%;
+                height: 100%;
+                background: #b8e0d8;
+            }
+
+        
+            .top-assist-card-info {
+                padding: 1rem 1.25rem;
+            }
+            
+                .top-assist-card-info p {
+                    margin: 0.5rem;
+                    color: #c00;
+                    font-size: 1rem;
+                }
+        
+
+                .top-score-card-info p:first-child {
+                    margin-top: 0;
+                }
+    
+
+    .top-assist-button {
+    
+        margin-top: 1.5rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background: #ef7e7e;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+    }
+    
+    .top-assist-button:hover:not(:disabled) {
+        background: #6759c5;
+    }
+
+    .top-assist-button:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+    .top-assist-error {
+        margin-top: 1rem;
+        color: #c00;
+        font-size: 0.9rem;
+        text-align: center;
+    }
