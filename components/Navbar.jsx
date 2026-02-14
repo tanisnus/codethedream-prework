@@ -7,7 +7,6 @@ function Navbar() {
             {/* Beginning of Navbar container */}
             <div className="navbar-container">
 
-                <Link to="/" className="navbar-home">Home</Link>
                 
                 <ul className="navbar-menu">
                     <li>

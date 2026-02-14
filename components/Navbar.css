@@ -1,11 +1,11 @@
 .navbar {
   width: 100%;
-  background-color: #6ab176;
+  background-color: #e9c8dc;
 }
 
     .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: var(--page-max-width);
     margin: 0 auto;
@@ -13,10 +13,7 @@
     box-sizing: border-box;
     }
 
-    .navbar-home {
-        text-decoration: none;
-        color: inherit;
-    }
+   
     
     .navbar-menu {
         display: flex;
@@ -28,6 +25,10 @@
     
     .navbar-menu li {
         margin: 0;
+    }
+
+    .navbar-menu a:hover {
+        color: #6d9c42;
     }
     
 
