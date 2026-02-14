@@ -1,7 +1,6 @@
 import './App.css'
 import {createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Home from '../pages/Home'
 import TopScore from '../pages/TopScore'
 import TopAssist from '../pages/TopAssist'
 
@@ -21,9 +20,9 @@ const web_pages_router = createBrowserRouter([
     path: '/', 
     element: <PagesLayout />,
     children: [
-      { 
+      {
         index: true,
-        element: <Home /> 
+        element: <TopScore />
       },
       {
         path: 'top-scores',
